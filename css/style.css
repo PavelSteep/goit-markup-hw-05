@@ -609,7 +609,6 @@ main {
 }
 
 
-
 .subscribe-container {
   margin-top: 40px;
   text-align: left;
@@ -673,7 +672,6 @@ main {
   margin-left: 16px;
 }
 
-
 /**=======================================*/
 
 /**===============BACKDROP=============== */
@@ -684,6 +682,15 @@ main {
   height: 100%;
   top: 0;
   background-color: rgba(46, 47, 66, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
