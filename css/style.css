@@ -866,8 +866,12 @@ textarea.modal-text {
   resize: none;
 }
 
-.modal-text:hover, .modal-text:focus {
+.modal-text:hover {
   border-color: #4d5ae5;
+}
+
+.modal-text:focus {
+  border-color: #4D5AE5 !important; 
 }
 
 .modal-check {
