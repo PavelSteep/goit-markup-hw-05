@@ -865,7 +865,7 @@ main {
   margin-bottom: 24px;
 }
 
-.modal-check input:checked + .check-span {
+.modal-check input:checked + label .check-span {
   background-color:#404bbf;
   border: none;
   fill:#F4F4FD;
