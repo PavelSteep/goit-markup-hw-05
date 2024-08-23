@@ -878,10 +878,10 @@ textarea.modal-text {
   margin-bottom: 24px;
 }
 
-.modal-check input:checked + label .check-span {
-  background-color:#404bbf !important;
+input:checked + label .check-span {
+  background-color:#404bbf;
   border: none;
-  fill:#F4F4FD !important;
+  fill:#F4F4FD;
 }
 
 .modal-check input:checked + label .check-span::before {
