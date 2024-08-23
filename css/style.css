@@ -878,17 +878,14 @@ textarea.modal-text {
   margin-bottom: 24px;
 }
 
-input:checked + label .check-span {
+.modal-check input:checked + label .check-span {
   background-color:#404bbf;
   border: none;
   fill:#F4F4FD;
 }
 
-.modal-check input:checked + label .check-span::before {
-  content: '';
-  display: block;
-  background-color: #404bbf;
-  border: none;
+.modal-check input:checked + label .check-span svg {
+  fill: #F4F4FD;
 }
 
 .check-text {
