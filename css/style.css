@@ -765,7 +765,7 @@ main {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -842,7 +842,7 @@ main {
   transform: translateY(-50%);
 } */
 
-.modal-text {
+textarea.modal-text {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -867,7 +867,7 @@ main {
 }
 
 .modal-check {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .modal-check input:checked + label .check-span {
@@ -891,7 +891,7 @@ main {
   color:#8e8f99;
 }
 
-.check-span {
+span.check-span {
   display: inline-block;
   width: 16px;
   height: 16px;
