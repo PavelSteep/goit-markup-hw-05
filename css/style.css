@@ -765,10 +765,6 @@ main {
 }
 
 .modal-field {
-  margin-bottom: 16px;
-}
-
-.modal-check {
   margin-bottom: 8px;
 }
 
@@ -869,6 +865,12 @@ main {
 
 .modal-check {
   margin-bottom: 24px;
+}
+
+.modal-check input:checked + label .check-span {
+  background-color:#404bbf;
+  border: none;
+  fill:#F4F4FD;
 }
 
 .modal-check input:checked + label .check-span::before {
