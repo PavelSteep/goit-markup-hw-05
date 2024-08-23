@@ -879,9 +879,8 @@ textarea.modal-text {
 }
 
 .modal-check input:checked + label .check-span {
-  background-color:#404bbf;
+  background-color: #404bbf;
   border: none;
-  fill:#F4F4FD;
 }
 
 .modal-check input:checked + label .check-span svg {
