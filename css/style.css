@@ -883,9 +883,14 @@ textarea.modal-text {
   border: none;
 }
 
-.modal-check input:checked + label .check-span svg {
+.modal-check:checked + .check-text {
+  border: none;
   fill: #F4F4FD;
 }
+
+/* .modal-check input:checked + label .check-span svg {
+  fill: #F4F4FD;
+} */
 
 .check-text {
   font-size: 12px;
